@@ -1,4 +1,4 @@
-package com.cs407.lab01;
+package com.cs407.helloworld;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.cs407.lab01", appContext.getPackageName());
+        assertEquals("com.cs407.helloworld", appContext.getPackageName());
     }
 }
