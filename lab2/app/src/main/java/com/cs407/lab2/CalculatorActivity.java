@@ -8,6 +8,7 @@ import android.content.Intent;
 
 public class CalculatorActivity extends AppCompatActivity {
     TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
